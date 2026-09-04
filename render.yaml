@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: jandarpan-api
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: API_ONLY
+        value: "true"
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+    healthCheckPath: /api/health
+    disks:
+      - name: json-db
+        mountPath: /opt/render/project/src/data
+        sizeGB: 1

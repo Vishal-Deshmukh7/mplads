@@ -1,0 +1,611 @@
+{
+  "users": [
+    {
+      "id": "usr-mp-01",
+      "name": "Shri Anand Mohan Sharma",
+      "email": "mp@mplads.gov.in",
+      "password_hash": "$2b$10$rq5ZrcfdLm9s2o3VEBDlUu3VZPQywbHiRHdjbva7/qT74hVuA.mU.",
+      "role": "mp",
+      "organization": "Parliament of India • Lok Sabha",
+      "constituency": "Varanasi Parliamentary Constituency (PC-77)",
+      "district": "Varanasi District",
+      "designation": "Hon'ble Member of Parliament (Lok Sabha)",
+      "created_at": "2024-01-05T09:00:00.000Z"
+    },
+    {
+      "id": "usr-auth-01",
+      "name": "Dr. Rajesh Sharma, IAS",
+      "email": "nodal.officer@mplads.gov.in",
+      "password_hash": "$2b$10$rq5ZrcfdLm9s2o3VEBDlUu3VZPQywbHiRHdjbva7/qT74hVuA.mU.",
+      "role": "authority",
+      "organization": "District Administration & DRDA, Varanasi",
+      "constituency": "Varanasi (PC-77)",
+      "district": "Varanasi District",
+      "designation": "District Magistrate & Nodal Officer (MPLADS)",
+      "created_at": "2024-01-10T09:00:00.000Z"
+    },
+    {
+      "id": "usr-auth-02",
+      "name": "Dr. Rajesh Sharma, IAS (Alias)",
+      "email": "authority@mplads.gov.in",
+      "password_hash": "$2b$10$rq5ZrcfdLm9s2o3VEBDlUu3VZPQywbHiRHdjbva7/qT74hVuA.mU.",
+      "role": "authority",
+      "organization": "District Administration & DRDA, Varanasi",
+      "constituency": "Varanasi (PC-77)",
+      "district": "Varanasi District",
+      "designation": "District Magistrate & Nodal Officer (MPLADS)",
+      "created_at": "2024-01-10T09:00:00.000Z"
+    },
+    {
+      "id": "usr-cont-01",
+      "name": "Rahul Verma",
+      "email": "apex.infra@contractor.in",
+      "password_hash": "$2b$10$rq5ZrcfdLm9s2o3VEBDlUu3VZPQywbHiRHdjbva7/qT74hVuA.mU.",
+      "role": "contractor",
+      "organization": "M/s Apex Infrastructure Pvt. Ltd.",
+      "district": "Varanasi District",
+      "designation": "Managing Director & Empanelled Contractor",
+      "created_at": "2024-01-15T10:00:00.000Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-001",
+      "project_code": "MPLADS-2024-VAR-001",
+      "name": "Construction of Community Health & Maternal Care Sub-Centre",
+      "description": "Building modern 4-bed maternal care room, pharmacy, diagnostic point, and solar backup in Rohaniya Gram Panchayat.",
+      "district": "Varanasi District",
+      "constituency": "Varanasi (PC-77)",
+      "location": "Rohaniya Gram Panchayat, Varanasi District",
+      "latitude": 25.2612,
+      "longitude": 82.9145,
+      "approved_cost": 2500000,
+      "start_date": "2024-02-01",
+      "end_date": "2024-11-30",
+      "recommended_by": "Shri Anand Mohan Sharma, Hon'ble MP",
+      "recommended_date": "2024-01-12",
+      "approved_by": "Dr. Rajesh Sharma, IAS (Nodal Officer)",
+      "approved_date": "2024-01-20",
+      "contractor_id": "usr-cont-01",
+      "status": "IN_PROGRESS",
+      "created_at": "2024-01-22T10:00:00.000Z",
+      "verified_expenditure": 750000,
+      "verified_progress": 35
+    },
+    {
+      "id": "proj-002",
+      "project_code": "MPLADS-2024-VAR-002",
+      "name": "Widening and Bituminous Macadam of Rural Link Road (2.4 km)",
+      "description": "2.4 km road connectivity from Pindra Block junction to Government High School with drainage culverts.",
+      "district": "Varanasi District",
+      "constituency": "Varanasi (PC-77)",
+      "location": "Pindra Block to Govt High School, Varanasi District",
+      "latitude": 25.5411,
+      "longitude": 82.8519,
+      "approved_cost": 1000000,
+      "start_date": "2024-03-01",
+      "end_date": "2024-12-15",
+      "recommended_by": "Shri Anand Mohan Sharma, Hon'ble MP",
+      "recommended_date": "2024-02-05",
+      "approved_by": "Dr. Rajesh Sharma, IAS (Nodal Officer)",
+      "approved_date": "2024-02-18",
+      "contractor_id": "usr-cont-01",
+      "status": "IN_PROGRESS",
+      "created_at": "2024-02-10T11:00:00.000Z",
+      "government_payment": 400000,
+      "verified_expenditure": 400000,
+      "verified_progress": 20
+    },
+    {
+      "id": "proj-003",
+      "project_code": "MPLADS-2024-VAR-003",
+      "name": "Installation of Solar-Powered High-Capacity RO Water ATM Plants (3 Units)",
+      "description": "Solar powered 1000 LPH RO automated water dispensing ATMs across dry panchayats in Sevapuri Block.",
+      "district": "Varanasi District",
+      "constituency": "Varanasi (PC-77)",
+      "location": "Sevapuri Village Panchayat, Varanasi District",
+      "latitude": 25.3214,
+      "longitude": 82.7842,
+      "approved_cost": 1500000,
+      "start_date": "2024-04-01",
+      "end_date": "2024-12-31",
+      "recommended_by": "Shri Anand Mohan Sharma, Hon'ble MP",
+      "recommended_date": "2024-03-12",
+      "approved_by": "Dr. Rajesh Sharma, IAS (Nodal Officer)",
+      "approved_date": "2024-03-25",
+      "contractor_id": null,
+      "status": "APPROVED",
+      "created_at": "2024-03-25T09:30:00.000Z",
+      "verified_expenditure": 0,
+      "verified_progress": 0
+    },
+    {
+      "id": "proj-004",
+      "project_code": "MPLADS-2024-VAR-004",
+      "name": "Establishment of Digital Smart Classrooms & Computer Labs",
+      "description": "Interactive digital boards, 20 high-performance computer terminals, solar inverter power and broadband in Government Girls Inter College, Chiraigaon.",
+      "district": "Varanasi District",
+      "constituency": "Varanasi (PC-77)",
+      "location": "Government Girls Inter College, Chiraigaon Block, Varanasi District",
+      "latitude": 25.395,
+      "longitude": 83.056,
+      "approved_cost": 800000,
+      "start_date": "2024-06-01",
+      "end_date": "2025-01-31",
+      "recommended_by": "Shri Anand Mohan Sharma, Hon'ble MP",
+      "recommended_date": "2024-05-18",
+      "contractor_id": null,
+      "status": "RECOMMENDED",
+      "created_at": "2024-05-18T14:20:00.000Z",
+      "verified_expenditure": 0,
+      "verified_progress": 0
+    }
+  ],
+  "contracts": [
+    {
+      "id": "cntr-001",
+      "project_id": "proj-001",
+      "contractor_id": "usr-cont-01",
+      "contract_value": 2500000,
+      "assigned_date": "2024-01-25",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "cntr-002",
+      "project_id": "proj-002",
+      "contractor_id": "usr-cont-01",
+      "contract_value": 1000000,
+      "assigned_date": "2024-02-15",
+      "status": "ACTIVE"
+    }
+  ],
+  "boq_items": [
+    {
+      "id": "boq-001",
+      "project_id": "proj-002",
+      "item_name": "Sub-grade earth excavation and mechanical compaction (600mm)",
+      "approved_quantity": 4800,
+      "unit": "cu.m",
+      "approved_rate": 50,
+      "approved_amount": 240000
+    },
+    {
+      "id": "boq-002",
+      "project_id": "proj-002",
+      "item_name": "Granular Sub-Base (GSB) grading material laying and compaction",
+      "approved_quantity": 1200,
+      "unit": "cu.m",
+      "approved_rate": 260,
+      "approved_amount": 312000
+    },
+    {
+      "id": "boq-003",
+      "project_id": "proj-002",
+      "item_name": "Dense Bituminous Macadam (DBM) 50mm thickness layer",
+      "approved_quantity": 7200,
+      "unit": "sq.m",
+      "approved_rate": 350,
+      "approved_amount": 252000
+    },
+    {
+      "id": "boq-004",
+      "project_id": "proj-002",
+      "item_name": "Reinforced Concrete Hume Pipe Culverts (900mm dia with wing walls)",
+      "approved_quantity": 4,
+      "unit": "sets",
+      "approved_rate": 49000,
+      "approved_amount": 196000
+    },
+    {
+      "id": "boq-101",
+      "project_id": "proj-001",
+      "item_name": "RCC Foundation, Grade Beam & Plinth masonry works",
+      "approved_quantity": 120,
+      "unit": "cu.m",
+      "approved_rate": 6500,
+      "approved_amount": 780000
+    },
+    {
+      "id": "boq-102",
+      "project_id": "proj-001",
+      "item_name": "AAC Block Superstructure with earthquake band detailing",
+      "approved_quantity": 180,
+      "unit": "cu.m",
+      "approved_rate": 4200,
+      "approved_amount": 756000
+    },
+    {
+      "id": "boq-103",
+      "project_id": "proj-001",
+      "item_name": "Hospital grade vitrified flooring, electrical wiring & plumbing",
+      "approved_quantity": 1,
+      "unit": "lumpsum",
+      "approved_rate": 964000,
+      "approved_amount": 964000
+    },
+    {
+      "id": "boq-201",
+      "project_id": "proj-003",
+      "item_name": "Supply and erection of 1000 LPH multi-stage RO purification skid",
+      "approved_quantity": 3,
+      "unit": "units",
+      "approved_rate": 350000,
+      "approved_amount": 1050000
+    },
+    {
+      "id": "boq-202",
+      "project_id": "proj-003",
+      "item_name": "5 KW Hybrid Solar Power Plant with lithium battery pack",
+      "approved_quantity": 3,
+      "unit": "systems",
+      "approved_rate": 150000,
+      "approved_amount": 450000
+    },
+    {
+      "id": "boq-301",
+      "project_id": "proj-004",
+      "item_name": "Digital Interactive Flat Panels & Classroom Computer Terminals",
+      "approved_quantity": 1,
+      "unit": "lumpsum",
+      "approved_rate": 800000,
+      "approved_amount": 800000
+    }
+  ],
+  "progress_claims": [
+    {
+      "id": "clm-prg-001",
+      "claim_code": "CLM-PRG-2024-001",
+      "type": "PROGRESS",
+      "project_id": "proj-001",
+      "contractor_id": "usr-cont-01",
+      "progress_percent": 35,
+      "description": "Plinth masonry completed along with DPC coat and preliminary backfilling in Rohaniya.",
+      "latitude": 25.2613,
+      "longitude": 82.9146,
+      "captured_at": "2024-04-12T10:30:00.000Z",
+      "evidence_path": "demo_plinth_site.jpg",
+      "evidence_url": "https://images.unsplash.com/photo-1541888946425-d0fbb186c5f8?w=800&auto=format&fit=crop&q=80",
+      "status": "VERIFIED",
+      "remarks": "Inspected and verified by Assistant Engineer on site.",
+      "created_at": "2024-04-12T11:00:00.000Z"
+    },
+    {
+      "id": "clm-prg-002",
+      "claim_code": "CLM-PRG-2024-002",
+      "type": "PROGRESS",
+      "project_id": "proj-002",
+      "contractor_id": "usr-cont-01",
+      "progress_percent": 25,
+      "description": "Sub-base soil excavation completed up to Chainage 1.20 km in Pindra Block. GSB material procured at transit yard.",
+      "latitude": 25.5412,
+      "longitude": 82.852,
+      "captured_at": "2024-05-10T14:15:00.000Z",
+      "evidence_path": "demo_road_cut.jpg",
+      "evidence_url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=800&auto=format&fit=crop&q=80",
+      "status": "PENDING_VERIFICATION",
+      "created_at": "2024-05-10T14:30:00.000Z"
+    },
+    {
+      "id": "clm-prg-005",
+      "claim_code": "CLM-PRG-2024-005",
+      "type": "PROGRESS",
+      "project_id": "proj-001",
+      "contractor_id": "usr-cont-01",
+      "progress_percent": 90,
+      "description": "Premature claim of 90% completion submitted before roof slab curing period elapsed.",
+      "latitude": 25.2612,
+      "longitude": 82.9145,
+      "captured_at": "2024-05-02T11:00:00.000Z",
+      "evidence_path": "demo_slab.jpg",
+      "evidence_url": "https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?w=800&auto=format&fit=crop&q=80",
+      "status": "REJECTED",
+      "remarks": "Rejected during joint physical inspection. Roof curing pending; electrical conduits not laid.",
+      "created_at": "2024-05-02T11:30:00.000Z"
+    }
+  ],
+  "expense_claims": [
+    {
+      "id": "clm-exp-001",
+      "claim_code": "CLM-EXP-2024-001",
+      "type": "EXPENSE",
+      "project_id": "proj-001",
+      "contractor_id": "usr-cont-01",
+      "boq_item_id": "boq-101",
+      "claimed_amount": 750000,
+      "invoice_number": "INV-APX-2024-011",
+      "invoice_date": "2024-04-10",
+      "document_path": "tax_inv_011.pdf",
+      "document_url": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&auto=format&fit=crop&q=80",
+      "status": "VERIFIED",
+      "remarks": "Matched with Measurement Book (MB) Record No 44/24.",
+      "created_at": "2024-04-11T10:00:00.000Z"
+    },
+    {
+      "id": "clm-exp-002",
+      "claim_code": "CLM-EXP-2024-002",
+      "type": "EXPENSE",
+      "project_id": "proj-002",
+      "contractor_id": "usr-cont-01",
+      "boq_item_id": "boq-002",
+      "claimed_amount": 850000,
+      "invoice_number": "INV-APX-2024-089",
+      "invoice_date": "2024-05-12",
+      "document_path": "tax_inv_089.pdf",
+      "document_url": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&auto=format&fit=crop&q=80",
+      "status": "PENDING_VERIFICATION",
+      "created_at": "2024-05-12T12:00:00.000Z"
+    },
+    {
+      "id": "clm-exp-003",
+      "claim_code": "CLM-EXP-2024-003",
+      "type": "EXPENSE",
+      "project_id": "proj-002",
+      "contractor_id": "usr-cont-01",
+      "boq_item_id": "boq-003",
+      "claimed_amount": 250000,
+      "invoice_number": "INV-APX-2024-089",
+      "invoice_date": "2024-05-15",
+      "document_path": "tax_inv_089_dup.pdf",
+      "document_url": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&auto=format&fit=crop&q=80",
+      "status": "PENDING_VERIFICATION",
+      "created_at": "2024-05-15T16:00:00.000Z"
+    }
+  ],
+  "verification_results": [
+    {
+      "id": "vr-001",
+      "claim_id": "clm-prg-001",
+      "claim_type": "PROGRESS",
+      "financial_score": 0,
+      "progress_score": 0,
+      "evidence_score": 0,
+      "timeline_score": 0,
+      "duplicate_score": 0,
+      "total_risk_score": 0,
+      "risk_level": "LOW",
+      "reasons": [
+        "All checks within normal parameters"
+      ],
+      "checks_detail": {
+        "financial": {
+          "flag": false,
+          "score": 0,
+          "detail": "Cumulative expenditure ₹7,50,000 is 30% of approved budget."
+        },
+        "progress_vs_expense": {
+          "flag": false,
+          "score": 0,
+          "detail": "Reported progress (35%) is consistent with expenditure (30%)."
+        },
+        "gps": {
+          "flag": false,
+          "score": 0,
+          "detail": "GPS verified within 15 meters of site.",
+          "distance_meters": 15
+        },
+        "timeline": {
+          "flag": false,
+          "score": 0,
+          "detail": "Claim date is within approved timeline."
+        },
+        "duplicate": {
+          "flag": false,
+          "score": 0,
+          "detail": "No duplicate claim detected."
+        }
+      },
+      "created_at": "2024-04-12T11:00:00.000Z"
+    },
+    {
+      "id": "vr-002",
+      "claim_id": "clm-exp-002",
+      "claim_type": "EXPENSE",
+      "financial_score": 40,
+      "progress_score": 30,
+      "evidence_score": 0,
+      "timeline_score": 0,
+      "duplicate_score": 0,
+      "total_risk_score": 70,
+      "risk_level": "HIGH",
+      "reasons": [
+        "Disproportionate expenditure compared with reported progress (Claimed: 85% of budget vs Progress: 25%)",
+        "Cumulative claimed expenditure approaches or exceeds approved project cost limit"
+      ],
+      "checks_detail": {
+        "financial": {
+          "flag": true,
+          "score": 40,
+          "detail": "Claimed ₹8,50,000 on approved cost ₹10,00,000 represents 85% expenditure."
+        },
+        "progress_vs_expense": {
+          "flag": true,
+          "score": 30,
+          "detail": "Progress is only 25% while expenditure claim is 85% (60% gap)."
+        },
+        "gps": {
+          "flag": false,
+          "score": 0,
+          "detail": "Not applicable for expense claim."
+        },
+        "timeline": {
+          "flag": false,
+          "score": 0,
+          "detail": "Invoice date 2024-05-12 is within project dates."
+        },
+        "duplicate": {
+          "flag": false,
+          "score": 0,
+          "detail": "First submission of invoice INV-APX-2024-089."
+        }
+      },
+      "created_at": "2024-05-12T12:00:00.000Z"
+    },
+    {
+      "id": "vr-004",
+      "claim_id": "clm-exp-003",
+      "claim_type": "EXPENSE",
+      "financial_score": 40,
+      "progress_score": 0,
+      "evidence_score": 0,
+      "timeline_score": 0,
+      "duplicate_score": 40,
+      "total_risk_score": 80,
+      "risk_level": "HIGH",
+      "reasons": [
+        "Possible duplicate expense claim — invoice number \"INV-APX-2024-089\" was already submitted for this project",
+        "Total cumulative expenditure (₹11,00,000) exceeds approved project cost (₹10,00,000)"
+      ],
+      "checks_detail": {
+        "financial": {
+          "flag": true,
+          "score": 40,
+          "detail": "Total claimed expenditure exceeds 100% of approved budget."
+        },
+        "progress_vs_expense": {
+          "flag": false,
+          "score": 0,
+          "detail": "Checked separately."
+        },
+        "gps": {
+          "flag": false,
+          "score": 0,
+          "detail": "N/A"
+        },
+        "timeline": {
+          "flag": false,
+          "score": 0,
+          "detail": "Within dates."
+        },
+        "duplicate": {
+          "flag": true,
+          "score": 40,
+          "detail": "Invoice INV-APX-2024-089 previously submitted on 2024-05-12."
+        }
+      },
+      "created_at": "2024-05-15T16:00:00.000Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "aud-1788464799887-992",
+      "user_id": "usr-cont-01",
+      "user_name": "Rahul Verma",
+      "user_role": "contractor",
+      "action": "USER_LOGIN",
+      "entity_type": "USER",
+      "entity_id": "usr-cont-01",
+      "details": "User logged in from portal (CONTRACTOR)",
+      "timestamp": "2026-09-03T19:46:39.887Z"
+    },
+    {
+      "id": "aud-1788464793377-184",
+      "user_id": "usr-mp-01",
+      "user_name": "Shri Anand Mohan Sharma",
+      "user_role": "mp",
+      "action": "USER_LOGIN",
+      "entity_type": "USER",
+      "entity_id": "usr-mp-01",
+      "details": "User logged in from portal (MP)",
+      "timestamp": "2026-09-03T19:46:33.377Z"
+    },
+    {
+      "id": "aud-1788464788792-273",
+      "user_id": "usr-auth-01",
+      "user_name": "Dr. Rajesh Sharma, IAS",
+      "user_role": "authority",
+      "action": "USER_LOGIN",
+      "entity_type": "USER",
+      "entity_id": "usr-auth-01",
+      "details": "User logged in from portal (AUTHORITY)",
+      "timestamp": "2026-09-03T19:46:28.792Z"
+    },
+    {
+      "id": "aud-1788464785854-605",
+      "user_id": "usr-auth-01",
+      "user_name": "Dr. Rajesh Sharma, IAS",
+      "user_role": "authority",
+      "action": "USER_LOGIN",
+      "entity_type": "USER",
+      "entity_id": "usr-auth-01",
+      "details": "User logged in from portal (AUTHORITY)",
+      "timestamp": "2026-09-03T19:46:25.854Z"
+    },
+    {
+      "id": "aud-000",
+      "user_id": "usr-mp-01",
+      "user_name": "Shri Anand Mohan Sharma",
+      "user_role": "mp",
+      "action": "PROJECT_RECOMMENDED",
+      "entity_type": "PROJECT",
+      "entity_id": "proj-004",
+      "details": "Hon'ble MP recommended Digital Smart Classrooms for GGIC Chiraigaon under Varanasi District",
+      "timestamp": "2024-05-18T14:20:00.000Z"
+    },
+    {
+      "id": "aud-001",
+      "user_id": "usr-auth-01",
+      "user_name": "Dr. Rajesh Sharma, IAS",
+      "user_role": "authority",
+      "action": "PROJECT_APPROVED",
+      "entity_type": "PROJECT",
+      "entity_id": "proj-003",
+      "details": "Nodal Officer approved & sanctioned RO Water ATM Plants (Outlay: ₹15,00,000) in Sevapuri Block",
+      "timestamp": "2024-03-25T10:00:00.000Z"
+    },
+    {
+      "id": "aud-002",
+      "user_id": "usr-auth-01",
+      "user_name": "Dr. Rajesh Sharma, IAS",
+      "user_role": "authority",
+      "action": "CONTRACTOR_ASSIGNED",
+      "entity_type": "PROJECT",
+      "entity_id": "proj-001",
+      "details": "Assigned M/s Apex Infrastructure Pvt. Ltd. (Rahul Verma) for Rohaniya Sub-Centre",
+      "timestamp": "2024-01-25T11:00:00.000Z"
+    },
+    {
+      "id": "aud-003",
+      "user_id": "usr-cont-01",
+      "user_name": "Rahul Verma",
+      "user_role": "contractor",
+      "action": "PROGRESS_UPDATED",
+      "entity_type": "PROGRESS_CLAIM",
+      "entity_id": "clm-prg-001",
+      "details": "Contractor submitted progress update (35%) with geotagged live evidence in Rohaniya",
+      "timestamp": "2024-04-12T11:00:00.000Z"
+    },
+    {
+      "id": "aud-004",
+      "user_id": "usr-auth-01",
+      "user_name": "Dr. Rajesh Sharma, IAS",
+      "user_role": "authority",
+      "action": "CLAIM_VERIFIED",
+      "entity_type": "PROGRESS_CLAIM",
+      "entity_id": "clm-prg-001",
+      "details": "Nodal Officer verified claim CLM-PRG-2024-001 after MB measurement audit",
+      "timestamp": "2024-04-14T15:30:00.000Z"
+    },
+    {
+      "id": "aud-005",
+      "user_id": "usr-cont-01",
+      "user_name": "Rahul Verma",
+      "user_role": "contractor",
+      "action": "EXPENSE_CLAIMED",
+      "entity_type": "EXPENSE_CLAIM",
+      "entity_id": "clm-exp-002",
+      "details": "Submitted expense claim ₹8,50,000 for invoice INV-APX-2024-089 (Road project)",
+      "timestamp": "2024-05-12T12:00:00.000Z"
+    },
+    {
+      "id": "aud-006",
+      "user_id": "SYSTEM",
+      "user_name": "Verification Engine",
+      "user_role": "system",
+      "action": "AUTOMATED_RISK_EVALUATION",
+      "entity_type": "EXPENSE_CLAIM",
+      "entity_id": "clm-exp-002",
+      "details": "Risk score computed: 70/100 (HIGH RISK). Reason: High expenditure compared with reported progress.",
+      "timestamp": "2024-05-12T12:00:05.000Z"
+    }
+  ]
+}

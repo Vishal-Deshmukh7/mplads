@@ -1,0 +1,6 @@
+{
+  "name": "JANDARPAN - MPLADS Monitoring & Risk Verification",
+  "description": "Secure MPLADS Project Monitoring & Risk Verification System featuring controlled contractor access, evidence-based claims, automated 5-check risk engine, and authority review.",
+  "requestFramePermissions": ["camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
